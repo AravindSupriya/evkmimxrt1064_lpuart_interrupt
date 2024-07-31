@@ -1,0 +1,8 @@
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\cmsis\mpu_armv7.h:191:22:ARM_MPU_Enable	16	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\cmsis\mpu_armv7.h:203:22:ARM_MPU_Disable	4	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1164:24:CLOCK_GetMux	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1201:24:CLOCK_GetDiv	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1262:24:CLOCK_GetOscFreq	0	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/board.c:25:10:BOARD_DebugConsoleSrcFreq	8	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/board.c:44:6:BOARD_InitDebugConsole	8	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/board.c:236:6:BOARD_ConfigMPU	24	static

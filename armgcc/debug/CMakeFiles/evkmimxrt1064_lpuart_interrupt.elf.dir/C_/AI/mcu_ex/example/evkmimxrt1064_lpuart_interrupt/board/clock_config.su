@@ -1,0 +1,13 @@
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_common_arm.h:210:20:_SDK_AtomicLocalClearAndSet4Byte	4	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1138:20:CLOCK_SetMux	16	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1176:20:CLOCK_SetDiv	16	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1212:20:CLOCK_ControlGate	8	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1239:20:CLOCK_DisableClock	8	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1379:20:CLOCK_SetXtalFreq	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1389:20:CLOCK_SetRtcXtalFreq	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_clock.h:1446:20:CLOCK_SetPllBypass	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_iomuxc.h:1306:20:IOMUXC_EnableMode	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_iomuxc.h:1329:20:IOMUXC_SetSaiMClkClockSource	0	static
+c:\ai\mcu_ex\example\evkmimxrt1064_lpuart_interrupt\drivers\fsl_iomuxc.h:1389:20:IOMUXC_MQSConfig	4	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/clock_config.c:49:6:BOARD_InitBootClocks	8	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/clock_config.c:177:6:BOARD_BootClockRUN	8	static

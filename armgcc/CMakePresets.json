@@ -1,0 +1,34 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug",
+      "displayName": "debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/${presetName}",
+      "toolchainFile": "${sourceDir}/../armgcc.cmake",
+      "inherits": "debug-env",
+      "cacheVariables": {
+        "POSTPROCESS_UTILITY": "$env{POSTPROCESS_UTILITY}",
+        "LIBRARY_TYPE": "NEWLIB_NANO",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "CMAKE_BUILD_TYPE": "debug",
+        "SdkRootDirPath": "$env{SdkRootDirPath}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "debug",
+      "displayName": "debug",
+      "configurePreset": "debug"
+    }
+  ],
+  "include": [
+    "mcux_include.json"
+  ]
+}

@@ -1,0 +1,3 @@
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/debug/CMakeFiles/evkmimxrt1064_lpuart_interrupt.elf.dir
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/debug/CMakeFiles/edit_cache.dir
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/debug/CMakeFiles/rebuild_cache.dir

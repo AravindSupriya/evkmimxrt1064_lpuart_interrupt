@@ -1,0 +1,2 @@
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common_arm.c:159:13:DelayLoop	0	static
+C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common_arm.c:189:6:SDK_DelayAtLeastUs	8	static

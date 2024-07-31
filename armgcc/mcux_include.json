@@ -1,0 +1,21 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug-env",
+      "displayName": "debug-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/NXP/MCUXpressoIDE_11.4.0_6224/ide/tools",
+        "SdkRootDirPath": "",
+        "POSTPROCESS_UTILITY": "C:/Users/na9/.mcuxpressotools/mcux-fixelf/mcux-fixelf.exe",
+        "MCUX_VENV_PATH": "C:/Users/na9/.mcuxpressotools/.venv/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH};$penv{PATH}"
+      }
+    }
+  ],
+  "buildPresets": []
+}

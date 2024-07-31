@@ -1,0 +1,493 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "evkmimxrt1064_lpuart_interrupt.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fstack-usage  -D__NEWLIB__           -mfpu=fpv5-d16 -mfloat-abi=hard     -DSDK_DEBUGCONSOLE=1     -std=gnu99     -DCPU_MIMXRT1064DVL6A     -DCPU_MIMXRT1064DVL6A_cm7     -DXIP_EXTERNAL_FLASH=1     -DXIP_BOOT_HEADER_ENABLE=1     -DMCUXPRESSO_SDK     -DCR_INTEGER_PRINTF     -DPRINTF_FLOAT_ENABLE=0     -D__MCUXPRESSO     -D__USE_CMSIS     -DDEBUG     -O0     -fno-common     -fmerge-constants     -g3      -ffunction-sections -fdata-sections -ffreestanding -fno-builtin     -fstack-usage     -mcpu=cortex-m7     -mthumb "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../board"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../source"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../utilities"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../drivers"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../device"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../component/uart"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../component/lists"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../xip"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../CMSIS"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/../evkmimxrt1064/driver_examples/lpuart/interrupt"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				14,
+				15,
+				17,
+				18,
+				20,
+				23,
+				25,
+				27,
+				29,
+				31,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46
+			]
+		}
+	],
+	"id" : "evkmimxrt1064_lpuart_interrupt.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fstack-usage  -D__NEWLIB__           -mfpu=fpv5-d16 -mfloat-abi=hard     -DSDK_DEBUGCONSOLE=1     -std=gnu99     -DCPU_MIMXRT1064DVL6A     -DCPU_MIMXRT1064DVL6A_cm7     -DXIP_EXTERNAL_FLASH=1     -DXIP_BOOT_HEADER_ENABLE=1     -DMCUXPRESSO_SDK     -DCR_INTEGER_PRINTF     -DPRINTF_FLOAT_ENABLE=0     -D__MCUXPRESSO     -D__USE_CMSIS     -DDEBUG     -O0     -fno-common     -fmerge-constants     -g3      -ffunction-sections -fdata-sections -ffreestanding -fno-builtin     -fstack-usage     -mcpu=cortex-m7     -mthumb",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mfpu=fpv5-d16 -mfloat-abi=hard     --specs=nano.specs     -nostdlib     -Xlinker     -Map=output.map     -Xlinker     --gc-sections     -Xlinker     -print-memory-usage     -Xlinker     --sort-section=alignment     -Xlinker     --cref     -mcpu=cortex-m7     -mthumb     -T\"C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/armgcc/evkmimxrt1064_lpuart_interrupt_Debug.ld\"",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lgcc -lc_nano -lm -lcr_newlib_nohost",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "evkmimxrt1064_lpuart_interrupt.elf",
+	"nameOnDisk" : "evkmimxrt1064_lpuart_interrupt.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				16,
+				19,
+				21,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				33,
+				34,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				14,
+				15,
+				17,
+				18,
+				20,
+				23,
+				25,
+				27,
+				29,
+				31,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/component/lists/fsl_component_generic_list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/component/lists/fsl_component_generic_list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/component/uart/fsl_adapter_uart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/component/uart/fsl_adapter_lpuart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/startup/startup_mimxrt1064.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/mpu_armv7.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/core_cm7.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_iccarm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_gcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_compiler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_armclang_ltm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_armclang.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/CMSIS/cmsis_armcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/source/semihost_hardfault.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/source/lpuart_interrupt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/utilities/fsl_debug_console.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/utilities/fsl_debug_console.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/utilities/fsl_assert.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_lpuart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_lpuart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_iomuxc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_gpio.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common_arm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common_arm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_common.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_clock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/drivers/fsl_clock.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/device/system_MIMXRT1064.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/device/system_MIMXRT1064.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/device/MIMXRT1064_features.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/device/MIMXRT1064.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/device/fsl_device_registers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/pin_mux.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/pin_mux.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/dcd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/dcd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/clock_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/clock_config.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/board.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/board/board.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/xip/fsl_flexspi_nor_boot.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/xip/fsl_flexspi_nor_boot.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/xip/evkmimxrt1064_flexspi_nor_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/AI/mcu_ex/example/evkmimxrt1064_lpuart_interrupt/xip/evkmimxrt1064_flexspi_nor_config.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
